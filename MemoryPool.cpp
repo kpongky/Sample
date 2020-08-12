@@ -124,6 +124,11 @@ void MemoryChunk::Initialize(void* buffer, uint32_t length, uint16_t allocSize)
 		assert(false);
 		return;
 	}
+	if (length < allocSize)
+	{
+		assert(false);
+		return;
+	}
 	m_First = buffer;
 	m_Used = 0;
 	m_Total = length / allocSize;
