@@ -1,9 +1,9 @@
-// TestConsole.cpp : ÄÜ¼Ö ÀÀ¿ë ÇÁ·Î±×·¥¿¡ ´ëÇÑ ÁøÀÔÁ¡À» Á¤ÀÇÇÕ´Ï´Ù.
+// TestConsole.cpp : ì½˜ì†” ì‘ìš© í”„ë¡œê·¸ë¨ì— ëŒ€í•œ ì§„ì…ì ì„ ì •ì˜í•©ë‹ˆë‹¤.
 //
 
 #include "stdafx.h"
-#include "../SampleLib/MemoryPool.h"
-#include "../SampleLib/Thread.h"
+#include "MemoryPool.h"
+#include "Thread.h"
 
 struct MemoryHead
 {
